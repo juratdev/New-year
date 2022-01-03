@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #d99c3b;
+  background: url("../img/bg-compressed.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+.timer {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #d99c3b;
+  padding: 20px 0;
+  -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  background-color: #9d020769;
+}
+
+.timer .boxs {
+  text-align: center;
+}
+
+.timer .boxs h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.timer .boxs h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.timer .boxs .count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.timer .boxs .count div {
+  background-color: #0f0f0f;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.timer .boxs .count div h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */
